@@ -21,7 +21,7 @@ favorite_things = [
 # 1. Iterate through the favorite_things array, printing each item in the array separated by an asterisk
 # ----
 
-# 2. In order to keep yourself organized, sort your favorite_things in alphabetical order. Do not use any special built-in methods.
+# 2. Create a new array for all the favorite things that are over 4 words long, populate it by iterating over the favorite_things array and examining each string.
 # ----
 
 # 3. Create a method to see if a particular item (string) is in the favorite_things. Do not use any special built-in methods. For instance: are boots in your list of supplies?

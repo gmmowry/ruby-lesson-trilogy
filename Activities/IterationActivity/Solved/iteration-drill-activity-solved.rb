@@ -24,8 +24,16 @@ favorite_things.each do |thing|
   puts "#{thing} *"
 end
 
-# 2. In order to keep yourself organized, sort your favorite_things in alphabetical order. Do not use any special built-in methods.
-# ----
+# 2. Create a new array for all the favorite things that are over 4 words long, populate it by iterating over the favorite_things array and examining each string.
+
+long_favorites = []
+
+favorite_things.each do |thing|
+  split_thing = thing.split
+  if split_thing.length >= 4
+    long_favorites << thing
+  end
+end
 
 # 3. Create a method to see if a particular item (string) is in the favorite_things. Do not use any special built-in methods. For instance: are "whiskers on kittens" one of your favorite things?
 # ----
