@@ -171,7 +171,7 @@ Begin going through the slides.
 
 * Proceed with the slides and the built-in/instance methods demo.
 
-  * You can find out all the available methods belonging to an object (instance methods plus more)    through IRB by creating an object, whatever kind of data type you want, and then calling `<object_name>.methods`
+  * You can find out all the available methods belonging to an object (instance methods plus more) through IRB by creating an object, whatever kind of data type you want, and then calling `<object_name>.methods`
 
   * Make sure you review best practices for using the Ruby docs:
 
