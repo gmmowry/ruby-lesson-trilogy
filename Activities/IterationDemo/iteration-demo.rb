@@ -17,6 +17,20 @@ weekly_high_temperatures = [68, 70, 71, 65, 59, 64, 72,]
 #   puts weekly_high_temperatures[i]
 # end
 
+# We can also use `for` loops to iterate through data structures!
+
+# for temp in weekly_temperatures
+#   puts temp
+# end
+
+# for temp in weekly_temperatures
+#   p "The high temperature for the day was #{temp}"
+# end
+
+# for temp in weekly_temperatures
+#   puts "The index is #{weekly_temperatures.index(temp)}"
+# end
+
 
 daily_high_temperatures = {
   "Monday" => 68,
@@ -44,3 +58,15 @@ daily_high_temperatures = {
 # daily_high_temperatures.each_value do |temp|
 #   puts "The low temperature was #{(temp - 20)}"
 # end
+
+# Using `for` loops
+
+# for day, temp in daily_high_temperatures
+#   puts day
+#   puts temp
+# end
+
+# for day, temp in daily_high_temperatures
+#   p "The high temperature on #{day} was #{temp}"
+# end
+

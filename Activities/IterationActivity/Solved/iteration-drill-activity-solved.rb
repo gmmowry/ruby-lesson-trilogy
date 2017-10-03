@@ -20,6 +20,9 @@ favorite_things = [
 
 # 1. Iterate through the favorite_things array, printing each item in the array separated by an asterisk
 # ----
+favorite_things.each do |thing|
+  puts "#{thing} *"
+end
 
 # 2. In order to keep yourself organized, sort your favorite_things in alphabetical order. Do not use any special built-in methods.
 # ----
@@ -30,6 +33,13 @@ favorite_things = [
 # 4. You've got way too many favorite things, let's keep it to an even 6 things. Remove items in your favorite_things in any way you'd like, leaving only 6. Do not use any special built-in methods.
 # ----
 
+favorite_things.each_with_index do |item, idx|
+  if idx >= 5
+    favorite_things.delete(item)
+  end
+end
+
+
 # 5. You've aged a bit since the last time you updated this list. Create a new combined favorite things list out of your favorite_things and your new favorite things below. You should get rid of any duplicate favorite things. Find the built-in method that helps you accomplish this in the Ruby documentation for Arrays.
 
 new_favorite_things = [
@@ -38,6 +48,8 @@ new_favorite_things = [
   "shatter-proof phone case",
   "whiskers on kittens",
 ]
+
+all_favorites = favorite_things | new_favorite_things
 
 # ---
 
@@ -57,11 +69,24 @@ students_gpa = {
 # 1. Iterate through students_gpa hash, printing each key/value pair with a dash in between the key and value, and an asterisk between each pair.
 # ----
 
+students_gpa.each do |name, gpa|
+  puts "#{name} - #{gpa} *"
+end
 # 2. Keep only students in students_gpa if they have a GPA of over 3.0. Do not use any special built-in methods.
 # ----
 
+students_gpa.each do |name, gpa|
+  if gpa <= 3.0
+    students_gpa.delete(name)
+  end
+end
+
 # 3. Our calculations were a bit off for the GPAs, turns out all of those students have a GPA of .25 lower than what we have recorded. Update the values in students_gpa so they accurately reflect their GPA. Do not use any special built-in methods.
 # ----
+
+students_gpa.each_value do |gpa|
+  gpa += .25
+end
 
 # 4. You need to check the following students grades, but you're not sure if they're int his class. Check if they're included in students_gpa, one by one:
 # "Audrey Horne"
@@ -70,6 +95,21 @@ students_gpa = {
 # Do not use any special built-in methods.
 # ----
 
+def check_name(hash, name_to_check)
+  hash.each_key do |name|
+    if name == name_to_check
+      true
+    else
+      false
+    end
+  end
+end
+
+check_name(students_gpa, "Audrey Horne")
+check_name(students_gpa, "Tommy Hill")
+check_name(students_gpa, "Shelly Johnson")
+
 # 5. We just found out that that Dale Cooper is actually not a student of ours! Remove them from students_gpa and return the key value pair as a two item array. Find the built-in method that helps you accomplish this in the Ruby documentation for Hashes.
 # ----
 
+students_gpa.shift
