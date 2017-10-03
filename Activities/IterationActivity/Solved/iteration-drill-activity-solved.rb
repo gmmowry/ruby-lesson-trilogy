@@ -27,9 +27,20 @@ end
 # 2. In order to keep yourself organized, sort your favorite_things in alphabetical order. Do not use any special built-in methods.
 # ----
 
-# 3. Create a method to see if a particular item (string) is in the favorite_things. Do not use any special built-in methods. For instance: are boots in your list of supplies?
+# 3. Create a method to see if a particular item (string) is in the favorite_things. Do not use any special built-in methods. For instance: are "whiskers on kittens" one of your favorite things?
 # ----
 
+def in_array(array, string)
+  array.each do |object|
+    if object == string
+      return true
+    else
+      return false
+    end
+  end
+end
+
+in_array(favorite_things, "whiskers on kittens")
 # 4. You've got way too many favorite things, let's keep it to an even 6 things. Remove items in your favorite_things in any way you'd like, leaving only 6. Do not use any special built-in methods.
 # ----
 
