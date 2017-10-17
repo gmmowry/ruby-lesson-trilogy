@@ -18,29 +18,31 @@ user_account_details = {
 
 # Access
 
-p user_account_details[:name]
+# p user_account_details[:name]
 
-p user_account_details[:number]
+# p user_account_details[:number]
 
-p user_account_details[:playlists]
+# p user_account_details[:playlists]
 
-p user_account_details[:liked_songs]
+# p user_account_details[:liked_songs]
 
-p user_account_details[:liked_songs]["Ace of Base"]
+# p user_account_details[:liked_songs]["Ace of Base"]
 
-p user_account_details[:liked_songs]["Macy Gray"]
+# p user_account_details[:liked_songs]["Macy Gray"]
 
 # Updating
 
-user_account_details[:name] = "Sabrina"
+# user_account_details[:name] = "Sabrina"
 
-user_account_details[:liked_songs]["Pearl Jam"] = []
+# user_account_details[:liked_songs]["Pearl Jam"] = []
 
-user_account_details[:liked_songs]["Pearl Jam"] << "Daughter"
+# user_account_details[:liked_songs]["Pearl Jam"] << "Daughter"
 
-user_account_details[:playlists] << "Salem's Top Picks"
+# user_account_details[:playlists] << "Salem's Top Picks"
 
-# Iteration
+# p user_account_details
+
+# # Iteration
 
 user_account_details.each do |detail, info|
   puts "Account #{detail}: #{info}"

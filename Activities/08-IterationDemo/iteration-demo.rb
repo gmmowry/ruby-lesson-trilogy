@@ -19,16 +19,16 @@ weekly_high_temperatures = [68, 70, 71, 65, 59, 64, 72,]
 
 # We can also use `for` loops to iterate through data structures!
 
-# for temp in weekly_temperatures
+# for temp in weekly_high_temperatures
 #   puts temp
 # end
 
-# for temp in weekly_temperatures
+# for temp in weekly_high_temperatures
 #   p "The high temperature for the day was #{temp}"
 # end
 
-# for temp in weekly_temperatures
-#   puts "The index is #{weekly_temperatures.index(temp)}"
+# for temp in weekly_high_temperatures
+#   puts "The index is #{weekly_high_temperatures.index(temp)}"
 # end
 
 

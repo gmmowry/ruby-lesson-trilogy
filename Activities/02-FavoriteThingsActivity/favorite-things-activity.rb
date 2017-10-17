@@ -17,38 +17,41 @@ favorite_things = [
   "silver white winters that melt into springs"
 ]
 
+# Instructions: 
+# Write your prediction above each block of code. What will it do? 
+# Then uncomment the block of code and run the file in your console/terminal to see if you were right.
 
 # Prediction:
 
-p favorite_things
-p favorite_things.length
+# p favorite_things
+# p favorite_things.length
 
-puts "*****"
-
-# Prediction:
-
-p favorite_things[0]
-p favorite_things[3]
-p favorite_things[-1]
-p favorite_things[-3]
-
-favorite_things << "singing in a family band"
-
-p favorite_things[-1]
-
-puts "*****"
+# puts "*****"
 
 # Prediction:
 
-p favorite_things.index("sleigh bells")
-p favorite_things.index("warm woollen mittens")
-p favorite_things.index("puppy kisses")
+# p favorite_things[0]
+# p favorite_things[3]
+# p favorite_things[-1]
+# p favorite_things[-3]
 
-puts "*****"
+# favorite_things << "singing in a family band"
 
-# Prediction:
+# p favorite_things[-1]
 
-p favorite_things.first
-p favorite_things.last
+# puts "*****"
+
+# # Prediction:
+
+# p favorite_things.index("sleigh bells")
+# p favorite_things.index("warm woollen mittens")
+# p favorite_things.index("puppy kisses")
+
+# puts "*****"
+
+# # Prediction:
+
+# p favorite_things.first
+# p favorite_things.last
 
 
