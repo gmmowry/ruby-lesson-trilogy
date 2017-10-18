@@ -54,7 +54,7 @@ Begin going through the slides.
 
 * Ask for any questions from the previous class and do a quick review.
 
-### 3. Instructor Do: Data Types Slides (5 min)
+### 3. Instructor Do: Ruby Tools Slides (5 min)
 
 * Students might be nervous about jumping into more complex data types after handling things like strings and integers.
 
@@ -172,7 +172,7 @@ Begin going through the slides.
 
     * IMPORTANT: When downloading any code going forward, be sure to hit "Download". **If you copy and paste directly from Slack, your code will not work!**
 
-    * With a partner, discuss what you expect to happen or to be returned in each section. Write your predictions before each section. Run the file in your terminal/console by calling `ruby student-grades-hash-activity.rb` in the directory you save it in to see if your predictions were correct.
+    * With a partner, discuss what you expect to happen or to be returned in each section. Write your predictions before each section. Run the file in your terminal/console by calling `ruby tudent-grades-hash-activity.rb` in the directory you save it in to see if your predictions were correct.
 
 **Instructor / TA Note:** Do not go over this activity after the time is done. Just move onto the next activity. Students will come back to this later after they've learned more.
 
