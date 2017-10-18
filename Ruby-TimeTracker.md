@@ -4,7 +4,7 @@
 | -------- | ------ | -------------------------------------------------- | ---- | -------- | --------------------- |
 | 10:00 AM | 1      | Instructor Do: Welcome Students                      | 0:01 |          |                       |
 | 10:01 AM | 2      | Instructor Do: Today's Class + Questions             | 0:07 |          |                       |
-| 10:08 AM | 3      | Instructor Do: Data Types Slides                     | 0:05 |          |                       |
+| 10:08 AM | 3      | Instructor Do: Ruby Tools Slides                     | 0:05 |          |                       |
 | 10:13 AM | 4      | Instructor Do: Arrays Slides + Demo                  | 0:10 | Critical |                       |
 | 10:23 AM | 5      | Partners Do: Code Dissection - Arrays                | 0:07 | High     |                       |
 | 10:30 AM | 6      | Instructor Do: Hashes Slides + Demo                  | 0:10 | Critical |                       |
@@ -12,7 +12,7 @@
 | 10:47 AM | 8      | Partners Do: Data Types Activity                     | 0:10 | Critical |                       |
 | 10:57 AM | 9      | Instructor Do: Ruby Instance Methods Slides          | 0:07 |          |                       |
 | 11:04 AM | 10     | Instructor Do: Ruby Instance Methods Demo            | 0:10 |          |                       |
-| 11:14 PM | 11     | Students Do: Instance Methods Activity               | 0:10 | High     |                       |
+| 11:14 PM | 11     | Partners Do: Instance Methods Activity               | 0:10 | High     |                       |
 | 11:24 PM | 12     | Instructor Do: Review Instance Methods Activity      | 0:03 |          |                       |
 | 12:27 PM | 13     | Break                                                | 0:20 |          |                       |
 | 12:47 PM | 14     | Instructor Do: Iteration Slides                      | 0:03 |          |                       |
